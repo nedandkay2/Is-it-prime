@@ -4,7 +4,7 @@
 //
 //  Created by Paul James Hearn on 2018-02-16.
 //  Copyright © 2018 Paul James Hearn. All rights reserved...
-//
+/////
 
 import UIKit
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func checkNum(_ sender: Any) {
         
-        if let userEnteredString = inputNum.text {  // check if user enters some text.. before proceeding
+        if let userEnteredString = inputNum.text {  // check if user enters some text.. before proceeding further
         
         let userEnteredInteger = Int(inputNum.text!) // convert the the number the user entered to in the textfield to an integer
             
